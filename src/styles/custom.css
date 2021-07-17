@@ -35,15 +35,16 @@ font-family: 'Open Sans', sans-serif;
 .home {
   display: flex;
   background: url("../components/images/homeBanner.png") no-repeat center;
-  height: 80vh;
+  height: 95vh;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Lemonada", cursive;
   font-size: 30px;
+  place-items: center;
 }
 
-.home .max-width {
-  margin: auto 0 auto 20px;
+.home-content {
+  margin: 80px;
 }
 
 .home .text-2 {
