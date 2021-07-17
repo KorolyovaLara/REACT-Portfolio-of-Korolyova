@@ -2,12 +2,16 @@ import React from "react";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-pills nav-justified">
       <li className="nav-item">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+          className={
+            currentPage === "Home"
+              ? "nav-link bg-dark text-light"
+              : "nav-link text-dark"
+          }
         >
           Home
         </a>
@@ -16,7 +20,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
-          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+          className={
+            currentPage === "About"
+              ? "nav-link bg-dark text-light"
+              : "nav-link text-dark"
+          }
         >
           About
         </a>
@@ -26,7 +34,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
           className={
-            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            currentPage === "Portfolio"
+              ? "nav-link bg-dark text-light"
+              : "nav-link text-dark"
           }
         >
           Portfolio
@@ -36,7 +46,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
-          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+          className={
+            currentPage === "Resume"
+              ? "nav-link bg-dark text-light"
+              : "nav-link text-dark"
+          }
         >
           Resume
         </a>
@@ -45,7 +59,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
-          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+          className={
+            currentPage === "Contact"
+              ? "nav-link bg-dark text-light"
+              : "nav-link text-dark"
+          }
         >
           Contact
         </a>

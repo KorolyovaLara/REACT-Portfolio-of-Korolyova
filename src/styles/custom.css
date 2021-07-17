@@ -1,0 +1,84 @@
+/* IMPORT OF FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@400;700&family=Open+Sans&family=Vast+Shadow&display=swap");
+
+/* LIST OF FONTS
+standout
+font-family: 'Vast Shadow', cursive;
+headings
+font-family: 'Lemonada', cursive;
+text
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --white: #fff;
+  --teal: #6cac98;
+  --pink: rgb(237, 0, 162);
+}
+
+/* NAVIGATION BAR */
+.nav {
+  background: var(--teal);
+  font-family: "Lemonada", cursive;
+  color: #000000;
+}
+
+/* HOME SECTION */
+.home {
+  display: flex;
+  background: url("../components/images/homeBanner.png") no-repeat center;
+  height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Lemonada", cursive;
+  font-size: 30px;
+}
+
+.home .max-width {
+  margin: auto 0 auto 20px;
+}
+
+.home .text-2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.home .text-3 span {
+  color: var(--teal);
+  font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--teal);
+  border-top: 1px solid #e7e7e7;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.footer-item {
+  margin: 0 auto;
+}
+
+.footer a {
+  margin: 10px;
+  color: var(--white);
+  font-size: 20px;
+}
+
+.footer a:hover {
+  color: var(--pink);
+}
