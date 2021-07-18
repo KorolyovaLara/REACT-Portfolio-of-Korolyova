@@ -6,13 +6,14 @@ export default function About() {
       <div class="col-lg-6">
         <img
           src="https://media-exp1.licdn.com/dms/image/C5603AQGQO09Jxc6vBg/profile-displayphoto-shrink_800_800/0/1573725102984?e=1632355200&v=beta&t=V4eEMNpidk_p6FPlc0StEViFPXrlnGJKBnP3W3nB9aE"
-          alt="Lara Korolyova"
+          alt="Lara Korolyova herself"
           class="d-block mx-lg-auto img-fluid"
           height="500"
           loading="lazy"
         ></img>
       </div>
       <div class="col-lg-6 p-3">
+        <h5 class="border-bottom border-4 mb-3">About me</h5>
         <h1 class="fw-bold lh-1 mb-3">
           I am chasing my dreams and I can help you to do the same.
         </h1>

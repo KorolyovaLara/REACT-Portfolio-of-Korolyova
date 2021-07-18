@@ -13,6 +13,7 @@ export default function Contact() {
         ></img>
       </div>
       <div class="col-lg-6 p-3">
+        <h5 class="border-bottom border-4 mb-3">Contact me</h5>
         <h1 class="fw-bold lh-1 mb-3">
         Get in touch with me today.
         </h1>

@@ -2,23 +2,50 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div class="row flex-lg-row align-items-center p-5 gx-0">
+      <div class="col-lg-6">
+        <a href="https://drive.google.com/file/d/1IZHpvLahr5Wzi3xr9b-RsNHqqFYR2_Gi/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          class="resume">
+          <img src="https://media.istockphoto.com/vectors/resume-color-icon-vector-id1173659341?k=6&m=1173659341&s=612x612&w=0&h=oishEwlTT_kegq6lhav8R4VYnj3uIzmLMNVxI8tJyRk="
+           alt="Resume"
+           class="d-block mx-lg-auto img-fluid"
+           height="500"
+           loading="lazy">
+          </img>
+        </a>
+      </div>
+      <div class="col-lg-6 p-3">
+        <h5 class="border-bottom border-4 mb-3">My Resume and Skills</h5>
+        <p class="lead">Click on the picture to download my resume</p>
+        <h4>My human Languages</h4>
+          <ul>
+            <li>Ukrainian</li>  
+            <li>Russian</li>  
+            <li>French</li>  
+            <li>English</li>  
+          </ul>
+        <h4>My non human Languages</h4>
+          <ul>           
+            <li>HTML</li>  
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MySQL and NoSQL</li>
+            <li>GraphQL</li>
+            <li>React</li>
+          </ul>
+        <h4>My Expertises</h4>
+          <ul>
+            <li>Accounting</li>            
+            <li>Logistics</li>  
+            <li>Management</li> 
+            <li>Gaming</li>   
+          </ul>
+      </div>
     </div>
   );
 }
