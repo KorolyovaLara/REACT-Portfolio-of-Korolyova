@@ -32,7 +32,7 @@ font-family: 'Open Sans', sans-serif;
   color: #000000;
 }
 
-/* HOME SECTION */
+/* HOME */
 .home {
   display: flex;
   background: url("../components/images/homeBanner.png") no-repeat center;
@@ -59,7 +59,7 @@ font-family: 'Open Sans', sans-serif;
   font-family: "Lemonada", cursive;
 }
 
-/* ABOUT ME SECTION*/
+/* ABOUT ME */
 h1,
 h4 {
   font-family: "Lemonada", cursive;
@@ -67,6 +67,11 @@ h4 {
 
 .row {
   --bs-gutter-x: 0rem;
+}
+
+/* CONTACT ME */
+.btn {
+  font-family: "Lemonada", cursive;
 }
 
 /* FOOTER */
