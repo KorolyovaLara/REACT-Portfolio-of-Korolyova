@@ -1,22 +1,31 @@
-import React from 'react';
+import React from "react";
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div class="row flex-lg-row align-items-center p-5 gx-0">
+      <div class="col-lg-6">
+        <img
+          src="src/components/images/contact.png"
+          alt="Lara Korolyova"
+          class="d-block mx-lg-auto img-fluid"
+          height="500"
+          loading="lazy"
+        ></img>
+      </div>
+      <div class="col-lg-6 p-3">
+        <h1 class="fw-bold lh-1 mb-3">Get in touch with me today.</h1>
+        <p class="lead">Hello there. My name is Lara Korolyova.</p>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      </div>
+</div>
+
+
+      </div>
     </div>
   );
 }
