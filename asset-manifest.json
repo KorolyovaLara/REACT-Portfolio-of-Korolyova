@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/REACT-Portfolio-of-Korolyova/static/css/main.2bb64df1.chunk.css",
+    "main.js": "/REACT-Portfolio-of-Korolyova/static/js/main.807df370.chunk.js",
+    "main.js.map": "/REACT-Portfolio-of-Korolyova/static/js/main.807df370.chunk.js.map",
+    "runtime-main.js": "/REACT-Portfolio-of-Korolyova/static/js/runtime-main.97500656.js",
+    "runtime-main.js.map": "/REACT-Portfolio-of-Korolyova/static/js/runtime-main.97500656.js.map",
+    "static/css/2.4be38407.chunk.css": "/REACT-Portfolio-of-Korolyova/static/css/2.4be38407.chunk.css",
+    "static/js/2.792e7e86.chunk.js": "/REACT-Portfolio-of-Korolyova/static/js/2.792e7e86.chunk.js",
+    "static/js/2.792e7e86.chunk.js.map": "/REACT-Portfolio-of-Korolyova/static/js/2.792e7e86.chunk.js.map",
+    "index.html": "/REACT-Portfolio-of-Korolyova/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/REACT-Portfolio-of-Korolyova/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.2bb64df1.chunk.css.map": "/REACT-Portfolio-of-Korolyova/static/css/main.2bb64df1.chunk.css.map",
+    "static/js/2.792e7e86.chunk.js.LICENSE.txt": "/REACT-Portfolio-of-Korolyova/static/js/2.792e7e86.chunk.js.LICENSE.txt",
+    "static/media/custom.css": "/REACT-Portfolio-of-Korolyova/static/media/homeBanner.114f6c5e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97500656.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.792e7e86.chunk.js",
+    "static/css/main.2bb64df1.chunk.css",
+    "static/js/main.807df370.chunk.js"
+  ]
+}
