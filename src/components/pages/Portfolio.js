@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
+    <div class="p-5 gx-0">
+      <h5 class="border-bottom border-4 mb-3 ">My Portfolio</h5>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu

@@ -8,10 +8,9 @@ export default function Resume() {
           target="_blank"
           rel="noreferrer"
           class="resume">
-          <img src="https://media.istockphoto.com/vectors/resume-color-icon-vector-id1173659341?k=6&m=1173659341&s=612x612&w=0&h=oishEwlTT_kegq6lhav8R4VYnj3uIzmLMNVxI8tJyRk="
+          <img src="resume.png"
            alt="Resume"
            class="d-block mx-lg-auto img-fluid"
-           height="500"
            loading="lazy">
           </img>
         </a>
@@ -19,14 +18,8 @@ export default function Resume() {
       <div class="col-lg-6 p-3">
         <h5 class="border-bottom border-4 mb-3">My Resume and Skills</h5>
         <p class="lead">Click on the picture to download my resume</p>
-        <h4>My human Languages</h4>
-          <ul>
-            <li>Ukrainian</li>  
-            <li>Russian</li>  
-            <li>French</li>  
-            <li>English</li>  
-          </ul>
-        <h4>My non human Languages</h4>
+
+        <h4>My Skill Set</h4>
           <ul>           
             <li>HTML</li>  
             <li>CSS</li>
@@ -44,6 +37,13 @@ export default function Resume() {
             <li>Logistics</li>  
             <li>Management</li> 
             <li>Gaming</li>   
+          </ul>        
+        <h4>My Languages</h4>
+          <ul>
+            <li>Ukrainian</li>  
+            <li>Russian</li>  
+            <li>French</li>  
+            <li>English</li>  
           </ul>
       </div>
     </div>
