@@ -39,7 +39,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .home {
-  background: url(/src/components/images/homeBanner.png) no-repeat top;
+  background: url(../images/homeBanner.png) no-repeat top;
   height: 90vh;
 }
 
