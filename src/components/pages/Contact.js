@@ -2,17 +2,17 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div class="row flex-lg-row-reverse align-items-center p-5 gx-0">
+    <div class="row flex-lg-row align-items-center mt-5 p-5 gx-0">
+      <h5 class="border-bottom border-4 my-3">Contact Me</h5>
       <div class="col-lg-6">
         <img
-          src="contact.png"
+          src="images/contact.png"
           alt="Contact Me"
           class="d-block mx-lg-auto img-fluid"
           loading="lazy"
         />
       </div>
       <div class="col-lg-6 p-3">
-        <h5 class="border-bottom border-4 mb-3">Contact Me</h5>
         <h1 class="fw-bold lh-1 mb-3">
         Get in touch with me today.
         </h1>
@@ -26,9 +26,7 @@ export default function Contact() {
           </div>
         </div>
         <div class="input-group mt-3 mb-3">
-            <span class="input-group-text">Your Message</span>
-            <textarea class="form-control" aria-label="Your Message" />
-            
+            <textarea class="form-control" placeholder="Your Message" aria-label="Your Message" />
         </div>
         <button type="button" class="btn btn-outline-dark">Send Message</button>
       </div>

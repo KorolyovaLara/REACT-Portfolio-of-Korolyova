@@ -33,30 +33,20 @@ font-family: 'Open Sans', sans-serif;
 }
 
 /* HOME */
+.name {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
 .home {
-  display: flex;
-  background: url("../components/images/homeBanner.png") no-repeat center;
-  height: 95vh;
-  background-size: cover;
-  background-attachment: fixed;
-  font-size: 30px;
-  place-items: center;
+  background: url(/src/components/images/homeBanner.png) no-repeat top;
+  height: 90vh;
 }
 
-.home-content {
-  margin: 80px;
-}
-
-.home .text-2 {
-  font-size: 60px;
-  font-weight: bold;
+span {
   font-family: "Lemonada", cursive;
-}
-
-.home .text-3 span {
   color: var(--teal);
-  font-weight: bold;
-  font-family: "Lemonada", cursive;
+  font-weight: bolder;
 }
 
 /* ABOUT ME */

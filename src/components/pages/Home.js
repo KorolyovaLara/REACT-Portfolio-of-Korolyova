@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="home">
-      <div class="home-content">
-        <div class="text-1">Welcome, my name is</div>
-        <div class="text-2">Lara Korolyova</div>
-        <div class="text-3">
-          And I am a <span>Web Developer</span>
+
+      <div class="home row flex-lg-row align-items-center mt-5 p-5 gx-0">
+        <div class="mt-5">
+          <h1>Welcome, my name is</h1>
+          <h1 class="name">Lara Korolyova</h1>
+          <h1>and I am a <span>Web Developer</span></h1>
         </div>
       </div>
-    </div>
+
   );
 }
